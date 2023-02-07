@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tin_tucs",
+  "info": {
+    "singularName": "tin-tuc",
+    "pluralName": "tin-tucs",
+    "displayName": "Tin_Tức"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "news_id": {
+      "type": "string"
+    },
+    "new_question": {
+      "type": "string"
+    },
+    "news_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "news_title": {
+      "type": "string"
+    },
+    "news_content": {
+      "type": "string"
+    }
+  }
+}
