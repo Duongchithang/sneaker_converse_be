@@ -5,12 +5,13 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.package-lock.json
 Icon
 .Spotlight-V100
 .Trashes
 ._*
 
-
+pac
 ############################
 # Linux
 ############################
@@ -105,7 +106,6 @@ coverage
 ############################
 # Strapi
 ############################
-
 .env
 license.txt
 exports

@@ -1,5 +1,5 @@
 {
-  "name": "converse-sneaker-backend",
+  "name": "server",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,21 +10,25 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.4.3",
-    "@strapi/plugin-users-permissions": "4.4.3",
-    "@strapi/strapi": "4.4.3",
+    "@_sh/strapi-plugin-ckeditor": "^2.0.3",
+    "@strapi/plugin-documentation": "^4.6.2",
+    "@strapi/plugin-i18n": "4.6.2",
+    "@strapi/plugin-users-permissions": "4.6.2",
+    "@strapi/provider-email-nodemailer": "^4.6.2",
+    "@strapi/provider-email-sendgrid": "^4.6.2",
+    "@strapi/provider-upload-cloudinary": "^4.6.2",
+    "@strapi/strapi": "4.6.2",
     "mysql": "2.18.1",
-    "strapi-plugin-entity-relationship-chart": "^4.1.0"
+    "node-mailjet": "^6.0.2",
+    "strapi-plugin-graphs-builder": "^1.0.0",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-provider-email-sendmail": "^3.6.10"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "ChiThang"
   },
   "strapi": {
-    "uuid": "362fa9cf-d5bb-4807-9955-d704606cde25"
-  },
-  "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "uuid": "6359c2c2-9db2-4c1e-9a35-c14d3e7932a6"
   },
   "license": "MIT"
 }
